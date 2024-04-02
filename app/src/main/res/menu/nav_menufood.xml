@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group>
+        <item
+            android:id="@+id/nav_food"
+            android:icon="@drawable/nav_food"
+            android:title="Traditional Food"/>
+        <item
+            android:id="@+id/nav_drink"
+            android:icon="@drawable/nav_drink"
+            android:title="Traditional Drink"/>
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/star_border"
+            android:title="Favorite Food"/>
+    </group>
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/nav_logout1"
+                android:title="Logout"/>
+        </menu>
+
+    </item>
+
+</menu>
